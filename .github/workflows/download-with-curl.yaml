@@ -1,8 +1,8 @@
-name: Download from Commit & Save to Repo
+name: DEV-Download from Commit & Save to Repo
 on:
   push:
     branches:
-      - main
+      - dev
 jobs:
   save-file:
     runs-on: ubuntu-latest
